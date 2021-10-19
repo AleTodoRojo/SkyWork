@@ -1,0 +1,293 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap');
+
+@font-face{
+    font-family:"klavika-bold";
+    src:url("klavika-bold.otf") format("woff");
+}
+span.font1{font-family:"klavika-bold";font-size:55px;text-transform:none;}
+
+* {
+  margin:0;
+  padding:0;
+}
+.sw{
+  font-family:"klavika-bold";
+}
+#main{
+  flex-grow: 1;
+}
+body{
+  background-color: #142840;
+  font-family: Spartan, sans-serif;
+  font-weight: 400;
+}
+h1{
+  font-weight: 800;
+  text-align: center;
+  color: #1D1D1B;
+}
+h2{
+  font-weight: 400;
+  text-align: center;
+  color: #1D1D1B;
+}
+.row{
+  margin: 0;
+}
+.card{
+  border: none;
+}
+.novedades{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  min-height: 300px;
+}
+.novedades .content, .novedades .deco{
+  width: 50%;
+}
+.novedades .content{
+  font-size: 18px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px;
+  box-sizing: border-box;
+  text-align: center;
+}
+.novedades .content .titulo{
+  font-size: 24px;
+}
+.novedades .deco{
+  background-image: url('../media/bb1.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.align{
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px;
+  box-sizing: border-box;
+  text-align: center;
+}
+#header{
+  min-height: 120px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+#header .logo{
+  padding-left: 20px;
+}
+#header .logo img{
+  width: 100%;
+  max-width: 200px;
+}
+#header .botonera{
+  flex-grow: 1;
+  list-style: none;
+  text-align: center;
+}
+#header .botonera li{
+  display: inline-block;
+  padding: 0 30px;
+}
+#header .botonera a{
+  color: #1D1D1B;
+  text-decoration: none;
+  font-size: 20px;
+}
+.myLogo{
+  background-image: url(../media/LogoSW.png);
+  display: block;
+  width: 125px;
+  height: 125px;
+  background-size: cover;
+  background-position: center;
+}
+.navbar-green{
+  background-color: red;
+}
+.bg-green{
+  background-color: white;
+}
+.nav-link{
+  color: #1D1D1B;
+  font-size: 25px;
+}
+.navbar-brand{
+  display: block;
+  width: 110px;
+  height: 11 0px;
+  background-size: cover;
+  background-position: center;
+}
+.navbar-toggler{
+  background-color: white;
+    border: 1px solid white;
+}
+.navbar-toggler-icon{
+  background-image: url("data:image/svg+xml,%3Csvg id='light' enable-background='new 0 0 24 24' height='512' viewBox='0 0 24 24' width='512' xmlns='http://www.w3.org/2000/svg'%3E%3Cg%3E%3Cpath d='m12 24c-6.617 0-12-5.383-12-12s5.383-12 12-12 12 5.383 12 12-5.383 12-12 12zm0-23c-6.065 0-11 4.935-11 11s4.935 11 11 11 11-4.935 11-11-4.935-11-11-11z'/%3E%3C/g%3E%3Cg%3E%3Cpath d='m16.5 8h-9c-.276 0-.5-.224-.5-.5s.224-.5.5-.5h9c.276 0 .5.224.5.5s-.224.5-.5.5z'/%3E%3C/g%3E%3Cg%3E%3Cpath d='m16.5 12.5h-9c-.276 0-.5-.224-.5-.5s.224-.5.5-.5h9c.276 0 .5.224.5.5s-.224.5-.5.5z'/%3E%3C/g%3E%3Cg%3E%3Cpath d='m16.5 17h-9c-.276 0-.5-.224-.5-.5s.224-.5.5-.5h9c.276 0 .5.224.5.5s-.224.5-.5.5z'/%3E%3C/g%3E%3C/svg%3E");
+}
+#footer{
+  min-height: 50px;
+  display: flex;
+  bottom:0;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+  justify-content: center;
+  background-image: linear-gradient(to right, #006699, #105988, #164d76, #184165, #173655, #173655, #173655, #173655, #184165, #164d76, #105988, #006699);
+}
+.col-md-5{
+  background-color: #006699;
+}
+.col-md-7{
+  background-color: #006699;
+  color: #1D1D1B;
+}
+.col-md-3{
+  max-width: none;
+}
+.foto{
+  background-image: url('../media/capsulasvarias.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 400px;
+}
+.fotof2{
+  background-image: url('../media/I1.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.row{
+  overflow: hidden;
+}
+.fotof1{
+  background-image: url('../media/C1.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+@media (max-width: 768px){
+  .fotof1{
+  background-image: url('../media/bb1.jpg');  
+  }
+}
+.foton2{
+  background-image: url('../media/nos12.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.foton1{
+  background-image: url('../media/nos11.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  
+}
+.fotom2{
+  background-image: url('../media/5.jpg');
+  background-repeat: repeat;
+  background-size: center;
+  background-position: center;
+}
+.fotom1{
+  background-image: url('../media/8.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.fotoco1{
+  background-image: url('../media/c2.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.mapa{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 500px;
+}
+img:hover{
+  transform: scale(1.3);
+  transition: transform 0.2s;
+}
+.myLogo:hover{
+  transform: scale(1.15);
+  transition: transform 0.2s;
+}
+.foto:hover{
+  transform: scale(1.3);
+  transition: transform 0.2s;
+}
+.fotof2:hover{
+  transform: scale(1.3);
+  transition: transform 0.2s;
+}
+.fotof1:hover{
+  transform: scale(1.3);
+  transition: transform 0.2s;
+}
+.foton2:hover{
+  transform: scale(1.3);
+  transition: transform 0.2s;
+}
+.foton1:hover{
+  transform: scale(1.3);
+  transition: transform 0.2s;
+}
+.fotom2:hover{
+  transform: scale(1.3);
+  transition: transform 0.2s;
+}
+.fotom1:hover{
+  transform: scale(1.3);
+  transition: transform 0.2s;
+}
+.fotoco1:hover{
+  transform: scale(1.3);
+  transition: transform 0.2s;
+}
+.mapa:hover{
+  transform: scale(1.3);
+  transition: transform 0.2s;
+}
+.wa{
+  position:fixed;
+  right:0;
+  bottom:0;
+  margin: 45px;
+  z-index: 20;
+  width: 85px;
+  height: 85px;
+}
+.yt{
+  right:0;
+  bottom:0;
+  margin: 0px;
+  width: 45px;
+  height: 45px;
+}
+.fb{
+  right:0;
+  bottom:0;
+  margin: 0px;
+  width: 45px;
+  height: 45px;
+}
+.ig{
+  right:0;
+  bottom:0;
+  margin: 0px;
+  width: 45px;
+  height: 45px;
+}
